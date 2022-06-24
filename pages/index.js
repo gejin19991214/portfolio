@@ -11,7 +11,7 @@ import Section from "../components/section";
 import { EduSection, EduYear } from "../components/edu";
 import Link from "next/link";
 import { IoLogoGithub } from "react-icons/io5";
-import { AiOutlineMail, AiFillWechat } from "react-icons/Ai";
+import { AiOutlineMail, AiFillWechat } from "react-icons/ai";
 
 export default function Home() {
   return (

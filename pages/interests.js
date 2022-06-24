@@ -6,7 +6,7 @@ import {
   ListItem,
   ListIcon
 } from "@chakra-ui/react";
-import { BiBasketball, BiFootball } from "react-icons/Bi";
+import { BiBasketball, BiFootball } from "react-icons/bi";
 import { AiOutlineStock } from "react-icons/ai";
 import { FiAlignJustify } from "react-icons/fi";
 
