@@ -7,8 +7,8 @@ import {
   ListIcon
 } from "@chakra-ui/react";
 import { BiBasketball, BiFootball } from "react-icons/Bi";
-import { AiOutlineStock } from "react-icons/Ai";
-import { FiAlignJustify } from "react-icons/Fi";
+import { AiOutlineStock } from "react-icons/ai";
+import { FiAlignJustify } from "react-icons/fi";
 
 
 const interests = () => {

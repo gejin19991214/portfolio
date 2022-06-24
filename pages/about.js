@@ -8,8 +8,8 @@ import {
   ListIcon,
 } from "@chakra-ui/react";
 import Section from "../components/section";
-import { AiOutlineCheckCircle } from "react-icons/Ai";
-import { ImRadioUnchecked } from "react-icons/Im";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { ImRadioUnchecked } from "react-icons/im";
 
 const about = () => {
   return (
