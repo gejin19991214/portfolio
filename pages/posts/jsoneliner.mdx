@@ -1,0 +1,42 @@
+import Layout from "../../components/items";
+import { Badge, Container } from "@chakra-ui/react";
+import { Title, WorkImage, Meta } from "../../components/post-format";
+
+
+<Layout title="jsoneliner">
+<Container align="left">
+<Title>
+    JS one-liner
+    <Badge>2022</Badge>
+</Title>
+
+
+```javascript
+// reverse a string
+cosnt stringReverse = str => str.split("").reverse().join("");
+
+// get the average of an array of number
+const average = arr => arr.reduce((a, b) => a + b);
+
+// remove Duplicates in an Array (it only works with arrays storing primitive data)
+const removeDuplicates = arr => [...new Set(arr)];
+
+// swap two variables
+[foo, bar] = [bar, foo];
+
+// different ways of merging multiple arrays
+// merge but don't remove the duplications
+const merge = (a, b) => a.concat(b);
+// or
+const merge = (a, b) => [...a, ...b];
+// merge and remove the duplications
+const merge = (a, b) => [...new Set(a.concat(b))];
+// or
+const merge = (a, b) => [...new Set([...a, ...b])];
+
+// capitalize a string
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+```
+
+</Container>
+</Layout>
