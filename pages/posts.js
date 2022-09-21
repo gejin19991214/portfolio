@@ -5,6 +5,7 @@ import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 
 import javascript from "../public/images/javascript.png";
 import leetcode from "../public/images/leetcode.png";
+import react from "../public/images/react.png";
 
 const posts = () => {
   return (
@@ -17,10 +18,15 @@ const posts = () => {
               thumbnail={javascript}
               id="jsoneliner"
             />
-            <GridItem 
-              title = "Leetcode In JS"
+            <GridItem
+              title="Leetcode In JS"
               thumbnail={leetcode}
               id="leetcodeinjs"
+            />
+            <GridItem
+              title="Things about React that need to be marked"
+              thumbnail={react}
+              id="thingsAboutReact"
             />
           </SimpleGrid>
         </Section>
