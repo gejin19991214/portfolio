@@ -4,7 +4,7 @@ import {WorkGridItem} from "../components/grid-item";
 import { Container, SimpleGrid } from "@chakra-ui/react";
 
 import shuishan from "../public/images/shuishan.png";
-import ecnuplus from "../public/images/ecnuplus.jpg";
+import newchinese from "../public/images/newchinese.png";
 
 
 const works = () => {
@@ -19,9 +19,9 @@ const works = () => {
               tags={["Vue.js", "Echarts"]}
             ></WorkGridItem>
             <WorkGridItem
-              title="ECNU-Plus-App"
-              thumbnail={ecnuplus}
-              tags={["React Native", "iOS", "Android"]}
+              title="NewChineseSearch"
+              thumbnail={newchinese}
+              tags={["React", "MUI", "Redux"]}
             ></WorkGridItem>
           </SimpleGrid>
         </Section>
