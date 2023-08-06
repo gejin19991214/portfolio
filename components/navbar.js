@@ -6,7 +6,7 @@ import ThemeButton from "./theme-button"
 const LinkItem = ({ href, path, children }) => {
   const active = path === href
   return (
-    <NextLink href={href}>
+    <NextLink href={href} legacyBehavior>
       <Link p={2} bg={active ? "grassTeal" : undefined}>
         {children}
       </Link>

@@ -23,10 +23,6 @@ const about = () => {
             <p align="left">
               This is an experimental personal website, thanks for visiting!
             </p>
-            <p align="left">
-              My last personal website is kkertin.com, which will be abandoned
-              after April 2023.
-            </p>
           </Section>
         </Box>
         <Box mt={5}>
@@ -35,6 +31,10 @@ const about = () => {
               Features to add &amp; bugs to fix
             </Heading>
             <List spacing={3} align="left">
+              <ListItem>
+                <ListIcon as={ImRadioUnchecked}></ListIcon>
+                Add items in *works* block
+              </ListItem>
               <ListItem>
                 <ListIcon as={ImRadioUnchecked}></ListIcon>
                 Game page
