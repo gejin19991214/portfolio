@@ -5,7 +5,7 @@ import { Global } from "@emotion/react";
 
 export const GridItem = ({ children, id, title, thumbnail }) => (
   <Box w="100%" textAlign="center">
-    <NextLink href={`/posts/${id}`} scroll={false}>
+    <NextLink href={`/posts/${id}`} scroll={false} legacyBehavior>
     <LinkBox cursor="pointer" w="80%">
       <Image
         src={thumbnail}

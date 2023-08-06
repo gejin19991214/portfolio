@@ -63,7 +63,9 @@ const Leetcodeinjs = () => {
       ) : (
         <p align="left">
           Sorry, It&apos;s out of Google API monthly limit. Please visit{" "}
-          <Link href="https://docs.google.com/spreadsheets/d/1QZxo8tEOMswlSIyOTwkIxZR1KVc-auH6o89-XNDbdpg/edit#gid=0">
+          <Link
+            href="https://docs.google.com/spreadsheets/d/1QZxo8tEOMswlSIyOTwkIxZR1KVc-auH6o89-XNDbdpg/edit#gid=0"
+            legacyBehavior>
           <a className="linkout">
             Google sheets of Leetcode In JS
           </a>
@@ -77,7 +79,6 @@ const Leetcodeinjs = () => {
         color: green;
     `}</style>
     </Layout>
-   
   );
 };
 

@@ -10,16 +10,16 @@ const SloganBox = styled.span`
 
 const Slogan = () => {
   return (
-    <Link href="/">
-      <a>
-        <SloganBox>
-        <Text fontSize="xl" ml={3}>
-          K
-        </Text>
-        </SloganBox>
-      </a>
-    </Link> 
-  )
+    (<Link href="/">
+
+      <SloganBox>
+      <Text fontSize="xl" ml={3}>
+        K
+      </Text>
+      </SloganBox>
+
+    </Link>)
+  );
 }
 
 export default Slogan

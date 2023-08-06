@@ -79,7 +79,7 @@ export default function Home() {
               </Button>
             </ListItem>
             <ListItem>
-              <Link href="https://github.com/gejin19991214" target="_blank">
+              <Link href="https://github.com/gejin19991214" target="_blank" legacyBehavior>
                 <Button
                   variant="ghost"
                   colorScheme="cyan"
