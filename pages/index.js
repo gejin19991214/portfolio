@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import Section from "../components/section";
 import { EduSection, EduYear } from "../components/edu";
+import { InternSection, InternYear } from "../components/intern";
 import Link from "next/link";
 import { IoLogoGithub } from "react-icons/io5";
 import { AiOutlineMail, AiFillWechat } from "react-icons/ai";
@@ -36,12 +37,12 @@ export default function Home() {
           </Heading>
           <p align="left">
             Hi there! I&apos;m Kertin, born in 1999. I&apos;m a student at ECNU
-            majoring in Big Data and i&apos;m interested in full-stack
-            developing. Tech stack includes React, Vue.js and Express.js.
+            majoring in Big Data and i&apos;m interested in frontend
+            developing. Tech stack includes React and Vue.js.
           </p>
         </Section>
 
-        <Section delay={0.2}>
+        <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Education
           </Heading>
@@ -55,7 +56,25 @@ export default function Home() {
           </EduSection>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.1}>
+          <Heading as="h3" variant="section-title">
+            Internships
+          </Heading>
+          <InternSection align="left">
+            <InternYear>2022.8-2022.9</InternYear>
+            SAP Shanghai Lab, No. 1001, Chenhui Road, Pudong New Area, Shanghai
+          </InternSection>
+          <InternSection align="left">
+            <InternYear>2022.11-2023.2</InternYear>
+            Ctrip, No. 968, Jinzhong Road, Changning District, Shanghai
+          </InternSection>
+          <InternSection align="left">
+            <InternYear>2023.5-2023.8</InternYear>
+            Meituan Shanghai, No. 221 Huangxing Road, Yangpu District, Shanghai
+          </InternSection>
+        </Section>
+
+        <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Interests
           </Heading>
@@ -64,7 +83,7 @@ export default function Home() {
           </p>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
             Contacts
           </Heading>
